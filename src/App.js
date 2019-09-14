@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 // Images:
-import profile from './img/fornesa.png';
+import profile from './img/fornesa.jpg';
 
 class App extends Component {
   constructor(){
