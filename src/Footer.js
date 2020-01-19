@@ -6,7 +6,7 @@ class Footer extends React.Component {
     let date = new Date();
     let year = date.getFullYear();
 
-    return <p><a href="https://www.chrisfornesa.com" target="_blank" rel="noopener noreferrer">Chris Fornesa</a> &copy; {year} || This site in: <a href="https://art.php.chrisfornesa.com">PHP</a> | <a href="https://art.django.chrisfornesa.com">Django</a></p>;
+    return <p><a href="https://www.fornesa.design" target="_blank" rel="noopener noreferrer">Chris Fornesa</a> &copy; {year} || This site in: <a href="https://art.php.fornesa.design">PHP</a> | <a href="https://art.django.fornesa.design">Django</a></p>;
   }
 }
 
