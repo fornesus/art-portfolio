@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Privilege",
+    "site": "https://privilege.wokeus.com",
+    "source": "https://repl.it/@cftxp/privilege",
+    "skill": "PHP",
+    "description": "This is a thought experiment that I created as an educational tool to unpack the dynamics and nuances behind white privilege."
+  },
+  {
+    "title": "Time",
+    "site": "https://time.chrisfornesa.com",
+    "source": "https://repl.it/@cftxp/time",
+    "skill": "JavaScript/React framework",
+    "description": "This is my first self-hosted React application: a simple clock/calendar that integrates the Date object using React components and methods."
+  }, 
+  {
+    "title": "Art",
+    "site": "/static/media/fornesa.016a25da.png",
+    "source": "/static/media/fornesa.016a25da.png",
+    "skill": "JavaScript/React framework",
+    "description": "This art portfolio is a dynamic showcase of my artwork, that integrates my knowledge of stateful classes and states."
+  }
+]
