@@ -1,19 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-// import * as serviceWorker from './serviceWorker';
+import './css/style.css';
 
-// App components:
+import Header from './Header';
 import App from './App';
-import List from './List';
 import Footer from './Footer';
 
-// The main application component:
-ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<List />, document.querySelector('#content'));
-ReactDOM.render(<Footer />, document.querySelector("footer"));
+import * as serviceWorker from './serviceWorker';
+
+ReactDOM.render(<Header />, document.querySelector('header'));
+ReactDOM.render(<App />, document.querySelector('main'));
+ReactDOM.render(<Footer />, document.querySelector('footer'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-// serviceWorker.register();
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
